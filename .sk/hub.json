@@ -1,17 +1,24 @@
 {
-  "titulo": "minisk-20",
+  "titulo": "minisk-20 (1)",
   "arquivo": "hub.html",
   "itens": [
+    {
+      "path": "ferramentas/banco-neon.html",
+      "nome": "Banco de Dados (Neon)",
+      "desc": "",
+      "on": false,
+      "icone": ""
+    },
     {
       "path": "index.html",
       "nome": "Mini SK",
       "desc": "",
       "on": true,
-      "icone": "icons/icon-192.png"
+      "icone": "icons/icon.svg"
     }
   ],
   "sub": "",
-  "logo": "",
-  "tema": "claro",
+  "logo": "🖥️",
+  "tema": "dourado",
   "links": []
 }

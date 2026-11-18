@@ -590,5 +590,5 @@
   }
 
   if (PC) { const b = document.querySelector('[data-open="termux"]'); if (b) { b.innerHTML = '💻<span class="lbl">Terminal PC</span>'; b.title = 'Terminal do computador'; } }
-  SK.termux = { verificarInstalar, ligarVoz, destravar, build, conectar, desconectar, mandar, ligarPonte, mandarProjeto, trazer, ligarTudo, ligarArvore, get ligado() { return !!(ws && ws.readyState === 1); } };
+  SK.termux = { verificarInstalar, ligarVoz, destravar, build, conectar, desconectar, mandar, ligarPonte, mandarProjeto, trazer, ligarTudo, ligarArvore, chamar, get ligado() { return !!(ws && ws.readyState === 1); } };
 })(window.SK);

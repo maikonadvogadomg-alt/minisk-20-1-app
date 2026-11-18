@@ -1,12 +1,13 @@
-// service-worker.js — gerado pelo Mini SK em 16/11/2026, 00:54:29
+// service-worker.js — gerado pelo Mini SK em 18/11/2026, 17:13:03
 // Não precisa mexer: ele guarda sozinho o que o app usa.
-const PREFIXO = 'sk-mini-sk-';
-const CACHE = PREFIXO + 'mwiqc2gm';
+const PREFIXO = 'sk-minisk-20-1-';
+const CACHE = PREFIXO + 'mwmk68gx';
 // Lista feita automaticamente (para funcionar sem internet logo após instalar)
 const GUARDAR = [
   "./",
   "./css/app.css",
   "./favicon.ico",
+  "./ferramentas/banco-neon.html",
   "./hub.html",
   "./hub.webmanifest",
   "./icons/apple-touch-icon.png",
@@ -40,18 +41,21 @@ const GUARDAR = [
   "./js/80-ai.js",
   "./js/80b-web.js",
   "./js/81-gasto.js",
+  "./js/81b-pronto.js",
   "./js/83-voz.js",
   "./js/84-ponte.js",
   "./js/85-checkpoints.js",
   "./js/86-terminal.js",
   "./js/86b-node.js",
   "./js/86c-termux.js",
+  "./js/86d-kits.js",
   "./js/86e-atalhos.js",
   "./js/86f-pasta-viva.js",
   "./js/86g-largura.js",
   "./js/86g-saude-pc.js",
   "./js/86h-navegador.js",
   "./js/86h-node-extra.js",
+  "./js/87-banco.js",
   "./js/87-links.js",
   "./js/88-inventario.js",
   "./js/89-config.js",
@@ -95,8 +99,12 @@ const GUARDAR = [
   "./js/lib/ponte-termux.cjs.txt",
   "./js/lib/receita-core.js",
   "./js/lib/selar.js",
+  "./js/tema.js",
   "./LEIA-ME.md",
   "./manifest.json",
+  "./PLANO.md",
+  "./README.md",
+  "./RECEITA.md",
   "./sw.js"
 ];
 
